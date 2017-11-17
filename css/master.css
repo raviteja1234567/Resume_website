@@ -1,0 +1,62 @@
+html { 
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+.upside{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	padding: 10px;
+    text-align: right;
+}
+
+.profile_pic{
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+	border-radius: 75%;
+}
+
+
+.belowup{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding: 10px;
+	margin: 20 auto;
+    text-align: left;
+}
+
+table, th, td {
+	color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+	padding: 10px;
+	text-align: left;
+	border-spacing: 5px;
+	border-color: white;
+}
+
+.leftside{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding: 10px;
+	float: left;
+    text-align: left;
+}
+
+.rightside{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding: 10px;
+    height: 720px;	
+	float: right;
+    text-align: left;
+}
